@@ -20,10 +20,27 @@
         padding: .7rem 2rem;
         border-radius: 100px;
         width: 90%;
+        transition: all .2s;
+        margin-right: -3.5rem;
+
+        &:focus {
+            outline: none;
+            width: 100%;
+            background-color: var(--color-grey-light-3);
+
+        }
 
     }
 
     &__button {
+        border: none;
+        width: 100%;
+        background-color: var(--color-grey-light-2);
+
+        &:focus {
+            outline: none;
+            
+        }
 
 
     }
