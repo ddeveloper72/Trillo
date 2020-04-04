@@ -33,7 +33,10 @@ flex: 0 0 18%; // don't grow don't shrink allways be 18% of the width.
 }
 
 .hotel-view {
+    background-color: #fff;
+    // construction styles
     background-color: orangered;
+    height: 80rem;
 
 
     flex: 1; // occupy all remaining space, 82%
