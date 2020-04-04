@@ -367,6 +367,10 @@ body {
 
 @-webkit-keyframes pulsate {
   0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   50% {
     -webkit-transform: scale(1.05);
@@ -380,6 +384,10 @@ body {
 
 @keyframes pulsate {
   0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   50% {
     -webkit-transform: scale(1.05);
