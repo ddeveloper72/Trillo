@@ -158,6 +158,8 @@ body {
 
 .user-nav {
   background-color: greenyellow;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,10 +171,12 @@ body {
 .user-nav > * {
   padding: 0 2rem;
   cursor: pointer;
+  height: 100%;
 }
 
 .user-nav > *:hover {
   background-color: var(--color-grey-light-2);
+  height: 100%;
 }
 
 .user-nav__icon {
