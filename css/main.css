@@ -356,6 +356,12 @@ body {
   margin-right: .5rem;
 }
 
+.overview__rating {
+  background-color: var(--color-primary);
+  color: #fff;
+  margin-left: 3rem;
+}
+
 .btn-inline {
   border: none;
   color: var(--color-primary);
