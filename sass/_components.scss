@@ -209,13 +209,14 @@
 // HOTEL OVERVIEW
 .overview {
     display: flex;
-    
+
     &__heading {
 
 
     }
 
     &__stars {
+        margin-right: auto; //  only let the element occupy the space it needs
 
 
     }
@@ -229,7 +230,6 @@
     }
 
     &__location {
-
 
     }
 
