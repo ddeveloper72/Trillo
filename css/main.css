@@ -275,6 +275,8 @@ body {
   text-transform: uppercase;
   display: block;
   padding: 1.5rem 3rem;
+  position: relative;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
