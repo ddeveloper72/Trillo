@@ -343,4 +343,15 @@ body {
   height: 1.75rem;
   fill: var(--color-primary);
 }
+
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border-bottom: 1px solid currentColor;
+}
+
+.btn-inline:hover {
+  color: var(--color-grey-dark-1);
+}
 /*# sourceMappingURL=main.css.map */
