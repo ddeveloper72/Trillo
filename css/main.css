@@ -243,6 +243,10 @@ body {
   position: relative;
 }
 
+.side-nav__item:not(:last-child) {
+  margin-bottom: .5rem;
+}
+
 .side-nav__item::before {
   content: "";
   position: absolute;
