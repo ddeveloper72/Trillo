@@ -195,3 +195,13 @@
     padding:2.5rem;
 
 }
+
+// HOTEL GALLERY
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
