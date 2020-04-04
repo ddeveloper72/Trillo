@@ -71,9 +71,11 @@
 
 // USER NAV
 .user-nav {
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
 
     &__icon-box {
-        background-color: greenyellow;
 
     }
 
