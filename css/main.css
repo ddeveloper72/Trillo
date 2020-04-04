@@ -344,6 +344,18 @@ body {
   fill: var(--color-primary);
 }
 
+.overview__location {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+}
+
+.overview__icon-location {
+  margin-right: .5rem;
+}
+
 .btn-inline {
   border: none;
   color: var(--color-primary);
@@ -363,6 +375,8 @@ body {
 
 .btn-inline:focus {
   outline: none;
+  -webkit-animation: pulsate 1s infinite;
+          animation: pulsate 1s infinite;
 }
 
 @-webkit-keyframes pulsate {
