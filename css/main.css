@@ -102,6 +102,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 4.5rem;
 }
 
 .description {
@@ -109,6 +110,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
+  margin-right: 4.5rem;
 }
 
 .user-reviews {
