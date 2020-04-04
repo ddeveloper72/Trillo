@@ -133,10 +133,10 @@
         position: relative;
 
         &:not(:last-child) {
-            margin-bottom: .5rem;
+            margin-bottom: .5rem; // not on the last item in list
         }
     }
-
+    
     &__item::before {
         content: "";
         position: absolute;
@@ -145,6 +145,12 @@
         height: 100%;
         width: 3px;
         background-color: var(--color-primary);
+        transform: scaleY(0);
+        transition: transform 1s;;
+    }
+    
+    &__item:hover::before {
+        transform: scaleY(1);
     }
 
     &__link:link,

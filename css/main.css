@@ -255,6 +255,17 @@ body {
   height: 100%;
   width: 3px;
   background-color: var(--color-primary);
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.side-nav__item:hover::before {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
 }
 
 .side-nav__link:link, .side-nav__link:visited {
