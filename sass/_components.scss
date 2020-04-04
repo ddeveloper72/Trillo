@@ -223,8 +223,8 @@
 
     &__stars {
         margin-right: auto; //  only let the element occupy the space it needs
-
-
+        display: flex;
+        
     }
 
     &__icon-star,
