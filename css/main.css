@@ -364,4 +364,22 @@ body {
 .btn-inline:focus {
   outline: none;
 }
+
+@-webkit-keyframes pulsate {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+@keyframes pulsate {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
 /*# sourceMappingURL=main.css.map */
