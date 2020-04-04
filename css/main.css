@@ -362,6 +362,16 @@ body {
   margin-left: 3rem;
 }
 
+.overview__rating-average {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+.overview__rating-count {
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
 .btn-inline {
   border: none;
   color: var(--color-primary);
