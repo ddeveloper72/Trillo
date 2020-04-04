@@ -28,7 +28,10 @@
 .sidebar {
 background-color: var(--color-grey-dark-1);
 
-flex: 0 0 18%; // don't grow don't shrink allways be 18% of the width.
+flex: 0 0 18%; // don't grow don't shrink always be 18% of the width.
+display: flex;
+flex-direction: column;  // change fex direction from row to column
+justify-content: space-between;
 
 }
 
