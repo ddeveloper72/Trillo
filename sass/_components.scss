@@ -71,7 +71,6 @@
 
 // USER NAV
 .user-nav {
-    background-color: greenyellow;
     align-self: stretch;
     display: flex;
     align-items: center;
@@ -91,13 +90,13 @@
     }
 
     &__icon-box {
+        position: relative;
     }
 
     &__icon {
         height: 2.25rem;
         width: 2.25rem;
         fill: var(--color-grey-dark-2);
-
     }
     
     &__notification {
@@ -107,6 +106,9 @@
         border-radius: 50%;
         background-color: var(--color-primary-light);
         color: #fff;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.1rem;
     }
 
     &__user {
