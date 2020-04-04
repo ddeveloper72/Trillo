@@ -360,6 +360,10 @@ body {
   background-color: var(--color-primary);
   color: #fff;
   margin-left: 3rem;
+  padding: 0 2.5rem;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 
 .overview__rating-average {
