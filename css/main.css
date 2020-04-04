@@ -257,15 +257,16 @@ body {
   background-color: var(--color-primary);
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: width .4s .2s, -webkit-transform 2s;
+  transition: width .4s .2s, -webkit-transform 2s;
+  transition: transform 2s, width .4s .2s;
+  transition: transform 2s, width .4s .2s, -webkit-transform 2s;
 }
 
 .side-nav__item:hover::before {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
+  width: 100%;
 }
 
 .side-nav__link:link, .side-nav__link:visited {
