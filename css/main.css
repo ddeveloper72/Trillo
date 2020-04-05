@@ -550,6 +550,7 @@ body {
           box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+  position: relative;
 }
 
 .review__text {
@@ -599,5 +600,12 @@ body {
 
 .review::before {
   content: "\201C";
+  position: absolute;
+  top: -2.75rem;
+  left: -1rem;
+  line-height: 1;
+  font-size: 20rem;
+  color: var(--color-grey-light-1);
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
