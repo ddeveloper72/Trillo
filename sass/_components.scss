@@ -389,28 +389,34 @@
     padding: 3rem;
     margin-bottom: 3.5rem;
 
+    
     &__text {
-
-
+        
+        
     }
-
+    
     &__user {
-
-
+        display: flex;
+        align-items: center;
+        
     }
-
+    
     &__photo {
         height: 4.5rem;
         width: 4.5rem;
         border-radius: 50%;
     }
-
+    
     &__user-box {
+        align-items: center;
 
 
     }
 
     &__user-name {
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-transform: uppercase;
 
 
     }
@@ -421,7 +427,6 @@
     }
     
     &__rating {
-
 
     }
 }
