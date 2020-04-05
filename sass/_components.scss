@@ -391,7 +391,7 @@
 
     
     &__text {
-        
+        margin-bottom: 2rem;
         
     }
     
@@ -409,6 +409,7 @@
     
     &__user-box {
         align-items: center;
+        margin-right: auto;
 
 
     }
@@ -428,5 +429,6 @@
     
     &__rating {
 
+        
     }
 }
