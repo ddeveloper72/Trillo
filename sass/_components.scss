@@ -389,10 +389,13 @@
     padding: 3rem;
     margin-bottom: 3.5rem;
     position: relative;
-
+    overflow: hidden;
+    
     
     &__text {
         margin-bottom: 2rem;
+        position: relative;
+        z-index: 10;
         
     }
     
@@ -444,7 +447,8 @@
         left: -1rem;
         line-height: 1;
         font-size: 20rem;
-        color: var(--color-grey-light-1);
+        color: var(--color-grey-light-2);
         font-family: sans-serif;
+        z-index: 1;
     }
 }
