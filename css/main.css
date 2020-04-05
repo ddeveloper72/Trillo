@@ -516,4 +516,9 @@ body {
   -webkit-mask-size: cover;
           mask-size: cover;
 }
+
+.recommend {
+  font-size: 1.3rem;
+  color: var(--color-grey-light-3);
+}
 /*# sourceMappingURL=main.css.map */
