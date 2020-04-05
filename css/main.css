@@ -543,4 +543,12 @@ body {
 .recommend__photo:not(:last-child) {
   margin-right: -1.5rem;
 }
+
+.reviews {
+  background-color: #fff;
+  -webkit-box-shadow: var(--shadow-light);
+          box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+}
 /*# sourceMappingURL=main.css.map */
