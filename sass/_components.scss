@@ -405,6 +405,7 @@
         height: 4.5rem;
         width: 4.5rem;
         border-radius: 50%;
+        margin: 1.5rem;
     }
     
     &__user-box {
@@ -415,10 +416,10 @@
     }
 
     &__user-name {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 800;
         text-transform: uppercase;
-
+        margin-bottom: .4rem;
 
     }
 
@@ -429,6 +430,6 @@
     
     &__rating {
 
-        
+
     }
 }
