@@ -521,4 +521,10 @@ body {
   font-size: 1.3rem;
   color: var(--color-grey-light-3);
 }
+
+.recommend__photo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
