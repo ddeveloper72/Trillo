@@ -320,6 +320,17 @@
     padding: 3rem 0;
     border-top: var(--border-line);
     border-bottom: var(--border-line);
+
+    // step 1: align all elements on a line
+    display: flex;
+    // step 2: allow elements to wrap to new lines
+    flex-wrap: wrap;
+
+    // step 3: give each item the same fixed width, half the flex container size;
+    &__item {
+        flex: 0 0 50%;
+        margin-bottom: .7rem;
+    }
 }
 
 
