@@ -100,6 +100,7 @@ body {
 }
 
 .detail {
+  font-size: 1.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,7 +110,6 @@ body {
 }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
           box-shadow: var(--shadow-light);
@@ -544,11 +544,17 @@ body {
   margin-right: -1.5rem;
 }
 
-.reviews {
+.review {
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
           box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+}
+
+.review__photo {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */

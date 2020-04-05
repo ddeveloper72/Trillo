@@ -383,7 +383,7 @@
 
 // USER REVIEWS SECTION
 
-.reviews {
+.review {
     background-color: #fff;
     box-shadow: var(--shadow-light);
     padding: 3rem;
@@ -400,8 +400,9 @@
     }
 
     &__photo {
-
-
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 50%;
     }
 
     &__user-box {
