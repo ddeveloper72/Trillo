@@ -530,4 +530,8 @@ body {
   width: 4rem;
   border-radius: 50%;
 }
+
+.recommend__photo:not(:last-child) {
+  margin-right: -1.5rem;
+}
 /*# sourceMappingURL=main.css.map */
