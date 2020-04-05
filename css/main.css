@@ -483,4 +483,12 @@ body {
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
 }
+
+.list {
+  list-style-type: none;
+  margin: 3rem 0;
+  padding: 3rem 0;
+  border-top: var(--border-line);
+  border-bottom: var(--border-line);
+}
 /*# sourceMappingURL=main.css.map */
