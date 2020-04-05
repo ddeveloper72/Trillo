@@ -519,7 +519,10 @@ body {
 
 .recommend {
   font-size: 1.3rem;
-  color: var(--color-grey-light-3);
+  color: var(--color-grey-dark-3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .recommend__photo {
