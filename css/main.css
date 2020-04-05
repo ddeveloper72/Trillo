@@ -585,4 +585,9 @@ body {
   text-transform: uppercase;
   margin-bottom: .4rem;
 }
+
+.review__user-date {
+  font-size: 1rem;
+  color: var(--color-grey-dark-3);
+}
 /*# sourceMappingURL=main.css.map */
