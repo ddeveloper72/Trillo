@@ -485,6 +485,7 @@
     border: none;
     background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
     color: #fff;
+    position: relative;
 
     &__visible {
         display: inline-block;
@@ -493,7 +494,14 @@
     }
 
     &__invisible {
-
+        display: inline-block;
+        position: absolute;
+        padding: 2rem 7.5rem;
+        // allow the element to use 100% of the block space
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: -100%;  //move the element 100% the height of the block
 
     }
 }

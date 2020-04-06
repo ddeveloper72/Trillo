@@ -654,10 +654,21 @@ body {
   background-image: -webkit-gradient(linear, left top, right top, from(var(--color-primary-light)), to(var(--color-primary-dark)));
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
   color: #fff;
+  position: relative;
 }
 
 .btn__visible {
   display: inline-block;
   padding: 2rem 7.5rem;
+}
+
+.btn__invisible {
+  display: inline-block;
+  position: absolute;
+  padding: 2rem 7.5rem;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: -100%;
 }
 /*# sourceMappingURL=main.css.map */
