@@ -649,6 +649,9 @@ body {
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
+  border-radius: 100px;
   border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--color-primary-light)), to(var(--color-primary-dark)));
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
 }
 /*# sourceMappingURL=main.css.map */
