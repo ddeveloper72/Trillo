@@ -488,25 +488,25 @@
     position: relative;
     overflow: hidden;
 
-    &__visible {
+    // refactor all the child elements, so code isn't repeated
+    & > * {
         display: inline-block;
-        padding: 2rem 7.5rem;
+        // allow the element to use 100% of the block space
         height: 100%;
         width: 100%;
         transition: all .2s;
+    }
+
+    &__visible {        
+        padding: 2rem 7.5rem;       
 
     }
 
     &__invisible {
-        display: inline-block;
         position: absolute;
         padding: 2rem 0;
-        // allow the element to use 100% of the block space
-        height: 100%;
-        width: 100%;
         left: 0;
         top: -100%;  //move the element 100% the height of the block
-        transition: all .2s;
 
     }
 
