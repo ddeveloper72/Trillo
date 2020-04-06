@@ -503,6 +503,18 @@
         width: 100%;
         left: 0;
         top: -100%;  //move the element 100% the height of the block
+        transition: all .2s;
 
     }
+
+    &:hover &__visible {
+
+
+    }
+
+    &:hover &__invisible {
+            top: 0;
+
+    }
+    
 }
