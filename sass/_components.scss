@@ -491,6 +491,9 @@
     &__visible {
         display: inline-block;
         padding: 2rem 7.5rem;
+        height: 100%;
+        width: 100%;
+        transition: all .2s;
 
     }
 
@@ -508,12 +511,12 @@
     }
 
     &:hover &__visible {
-
+        transform: translateY(100%);
 
     }
 
     &:hover &__invisible {
-            top: 0;
+        top: 0;
 
     }
     
