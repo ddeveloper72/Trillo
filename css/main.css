@@ -637,4 +637,11 @@ body {
   padding: 3.5rem 0;
   text-align: center;
 }
+
+.cta__book-now {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
 /*# sourceMappingURL=main.css.map */
