@@ -372,6 +372,14 @@ body {
           align-items: center;
 }
 
+@media only screen and (max-width: 70em) {
+  .side-nav__link:link, .side-nav__link:visited {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .side-nav__icon {
   width: 1.75rem;
   height: 1.75rem;
