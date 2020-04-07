@@ -316,6 +316,14 @@ body {
   margin-bottom: .5rem;
 }
 
+@media only screen and (max-width: 70em) {
+  .side-nav__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
 .side-nav__item::before {
   content: "";
   position: absolute;
