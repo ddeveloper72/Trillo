@@ -299,6 +299,15 @@ body {
   margin-top: 3.5rem;
 }
 
+@media only screen and (max-width: 70em) {
+  .side-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+}
+
 .side-nav__item {
   position: relative;
 }
