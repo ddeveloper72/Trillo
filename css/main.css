@@ -372,6 +372,12 @@ body {
   padding: 2.5rem;
 }
 
+@media only screen and (max-width: 70em) {
+  .legal {
+    display: none;
+  }
+}
+
 .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
