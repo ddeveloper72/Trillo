@@ -22,6 +22,8 @@
 }
 
 $break-point-largest: 75em; // 120px
+$break-point-large: 68.75em; // 111px
+
 
 * {
     margin: 0;
@@ -37,6 +39,10 @@ $break-point-largest: 75em; // 120px
 html {
     box-sizing: border-box;
     font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+
+    @media only screens and (max-width: $break-point-large) {
+        font-size: 50%;
+    }
 }
 
 body {
