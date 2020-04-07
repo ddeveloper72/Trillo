@@ -138,6 +138,10 @@
 
         &:not(:last-child) {
             margin-bottom: .5rem; // not on the last item in list
+
+            @media only screen and (max-width: $break-point-medium) {
+                margin: 0;
+            }
         }
 
          @media only screen and (max-width: $break-point-medium) {
