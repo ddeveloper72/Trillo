@@ -32,6 +32,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screens and (max-width: 68.12em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   font-family: 'open sans', sans-serif;
   font-weight: 400;
@@ -51,6 +57,14 @@ body {
   -webkit-box-shadow: var(--shadow-dark);
           box-shadow: var(--shadow-dark);
   min-height: 50rem;
+}
+
+@media only screen and (max-width: 76em) {
+  .container {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .header {
@@ -561,7 +575,7 @@ body {
 }
 
 .recommend__photo:not(:last-child) {
-  margin-right: -1.5rem;
+  margin-right: -2rem;
 }
 
 .review {

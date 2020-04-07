@@ -8,7 +8,9 @@
 
     @media only screen and (max-width: $break-point-largest) {
         margin: 0;
-        
+        max-width: 100%;
+        width: 100%;
+
     }
 
 }
