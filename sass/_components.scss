@@ -252,19 +252,24 @@
     border-bottom: var(--border-line);
 
     @media only screen and (max-width: $break-point-small) {
-        font-size: 1.4rem;
         padding: 0;
     }
 
+    
     &__heading {
         font-size: 2.25rem;
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.5rem 3rem;
-
+        
+        @media only screen and (max-width: $break-point-smallest) {
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        
     }
-
+    
     &__stars {
         margin-right: auto; //  only let the element occupy the space it needs
         display: flex;
@@ -277,12 +282,20 @@
         height: 1.75rem;
         fill: var(--color-primary);
 
+
+        @media only screen and (max-width: $break-point-smallest) {
+            width: 1.2rem;
+            height: 1.2rem;
+            flex-wrap: wrap;
+        }
+
     }
 
     &__location {
         font-size: 1.2rem;
         display: flex;
         vertical-align: center;
+
     }
 
     &__icon-location {
@@ -396,6 +409,10 @@
     &__item {
         flex: 0 0 50%;
         margin-bottom: .7rem;
+
+        @media only screen and (max-width: $break-point-smallest) {
+            flex: 0 0 100%;
+        }
     }
 
     &__item::before {

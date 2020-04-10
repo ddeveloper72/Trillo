@@ -90,7 +90,6 @@ body {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
     height: 11rem;
-    background-color: var(--color-grey-light-2);
   }
 }
 
@@ -494,7 +493,6 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .overview {
-    font-size: 1.4rem;
     padding: 0;
   }
 }
@@ -505,6 +503,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 1.5rem 3rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .overview__heading {
+    font-size: 1.4rem;
+    text-align: center;
+  }
 }
 
 .overview__stars {
@@ -518,6 +523,15 @@ body {
   width: 1.75rem;
   height: 1.75rem;
   fill: var(--color-primary);
+}
+
+@media only screen and (max-width: 31.25em) {
+  .overview__icon-star, .overview__icon-location {
+    width: 1.2rem;
+    height: 1.2rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .overview__location {
@@ -678,6 +692,14 @@ body {
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
   margin-bottom: .7rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .list__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
 }
 
 .list__item::before {
