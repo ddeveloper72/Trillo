@@ -247,8 +247,8 @@
     border-bottom: var(--border-line);
 
     @media only screen and (max-width: $break-point-small) {
-        font-size: 1.8rem;
-        padding: 1.25rem 2rem;
+        font-size: 1.4rem;
+        padding: 0;
     }
 
     &__heading {
@@ -293,17 +293,29 @@
         flex-direction: column;
         align-self: stretch;
         justify-content: center;
+
+        @media only screen and (max-width: $break-point-small) {
+            padding: 0 1.5rem;
+            text-align: center;
+        }
     }
 
     &__rating-average {
         font-size: 2.25rem;
         font-weight: 300;
         margin-bottom: -3px;
+
+        @media only screen and (max-width: $break-point-small) {
+            font-size: 1.82rem;
+        }
     }
 
     &__rating-count {
         font-size: .8rem;
         text-transform: uppercase;
+        @media only screen and (max-width: $break-point-small) {
+            font-size: .5rem;
+        }
     }
 }
 
