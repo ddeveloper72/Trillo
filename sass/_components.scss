@@ -207,6 +207,12 @@
         height: 1.75rem;
         margin-right: 2rem;
         fill: currentColor; // uses the color of the parent element
+
+        @media only screen and (max-width: $break-point-small) {
+            margin: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
     }
 }
 
