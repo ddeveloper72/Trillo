@@ -138,6 +138,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 37.5em) {
+  .detail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .description {
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
@@ -153,6 +162,13 @@ body {
   .description {
     padding: 2rem;
     margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
