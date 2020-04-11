@@ -2,3 +2,5 @@ node_modules
 sass/main.css.map
 .vscode/settings.json
 css/main.css.map
+css/main.prefix.css
+css/main.comp.css
